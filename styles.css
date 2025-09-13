@@ -112,7 +112,7 @@ h2 {
 }
 
 .publications li {
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Increased margin for better spacing */
     line-height: 1.6;
 }
 
@@ -124,6 +124,22 @@ h2 {
 .publications li em {
     color: #666;
     font-style: italic;
+}
+
+/* New styles for publication details */
+.publication-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.publication-details p {
+    margin-bottom: 5px;
+}
+
+.publication-details strong {
+    font-weight: 500;
+    color: #333;
 }
 
 /* Links */
@@ -160,6 +176,7 @@ a:hover {
     
     .nav {
         gap: 20px;
+        justify-content: center; /* Center nav on mobile for better look */
     }
     
     .header {
