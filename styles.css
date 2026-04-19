@@ -133,34 +133,29 @@ h2 {
 }
 
 .publications li {
-    margin-bottom: 25px; /* Increased margin for better spacing */
-    line-height: 1.6;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.pub-venue {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #999;
 }
 
 .publications li strong {
     color: #000;
     font-weight: 500;
+    line-height: 1.5;
 }
 
-.publications li em {
-    color: #666;
-    font-style: italic;
-}
-
-/* New styles for publication details */
-.publication-details {
-    margin-top: 10px;
+.pub-authors {
     font-size: 14px;
-    color: #555;
-}
-
-.publication-details p {
-    margin-bottom: 5px;
-}
-
-.publication-details strong {
-    font-weight: 500;
-    color: #333;
+    color: #666;
 }
 
 /* Links */
