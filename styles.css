@@ -42,6 +42,11 @@ body {
     color: #000;
 }
 
+/* Language switch — pushed to the right end of the nav row */
+.lang-switch {
+    margin-left: auto;
+}
+
 /* Profile header */
 .profile-header {
     display: flex;
