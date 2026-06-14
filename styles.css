@@ -151,11 +151,15 @@ h2 {
 }
 
 .pub-venue {
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.08em;
+    align-self: flex-start;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #999;
+    color: #8a5a2b;
+    border-left: 3px solid #8a5a2b;
+    padding-left: 9px;
+    margin-left: -12px;
 }
 
 .publications li strong {
@@ -167,6 +171,31 @@ h2 {
 .pub-authors {
     font-size: 14px;
     color: #666;
+}
+
+.pub-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 4px;
+}
+
+.pub-link {
+    display: inline-flex;
+    color: #555;
+    transition: color 0.2s ease;
+}
+
+.pub-link:hover {
+    color: #8a5a2b;
+    text-decoration: none;
+}
+
+.pub-link svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    display: block;
 }
 
 /* Links */
